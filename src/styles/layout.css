@@ -1,0 +1,26 @@
+.nav {
+  @apply p-2 bg-theme-color-500 min-h-16 flex items-center text-white text-xl overflow-visible;
+}
+
+.content-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.link-highlight {
+  @apply px-16;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.link-normal {
+  @apply px-16;
+}
+
+.link-normal:hover {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  @apply h-full min-w-12 w-12 mx-4;
+  fill: #ffffff;
+}
